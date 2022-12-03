@@ -1460,14 +1460,15 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-
   }
 
   .col-lg-4:hover {
-    background: rgb(48, 201, 134);
-    background: linear-gradient(0deg, rgba(48, 201, 134, 0.695973457742472) 0%, rgba(255, 255, 255, 1) 100%);
+    /* background: rgb(48, 201, 134); */
+    background: linear-gradient(0deg, rgba(54, 222, 149, 0.696) 0%, rgba(255, 255, 255, 1) 100%);
 
   }
+
+
 
   .col-lg-5 {
     flex: 0 0 auto;
