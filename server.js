@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 
 app.get("/", function (req, res) {
-    res.render("pages/home");
+    res.render("pages/index");
   });
 app.get("/:id", function (req, res) {
     res.render(`pages/${req.params.id}`);
